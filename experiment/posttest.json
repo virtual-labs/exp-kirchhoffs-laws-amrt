@@ -1,38 +1,55 @@
 {
   "version": 2.0,
   "questions": [
-    {
-      "question": "This is a Sample Question 1?",
+   {
+      "question": "Which circuit law states that the sum of all currents into and out of a node equals zero?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Norton's Current Law.",
+        "b": "Chebyshev's Current Law.",
+        "c": "Kirchhoff's Current Law.",
+        "d": "Lenz's Current Law."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect; Norton's theorem relates to equivalent circuits.",
+        "b": "Incorrect; Chebyshev's law is unrelated to circuits.",
+        "c": "Correct. Kirchhoff's Current Law (KCL) applies to nodes.",
+        "d": "Incorrect; Lenz's law deals with electromagnetic induction."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "__________ carries negative charge and ____________ carries positive charge.",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Proton, Electron",
+        "b": "Electron, Proton",
+        "c": "Neutron, Electron",
+        "d": "Nucleus, Electron"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect; proton is positive, electron is negative.",
+        "b": "Correct. Electron = negative, Proton = positive.",
+        "c": "Neutrons are neutral.",
+        "d": "The nucleus contains protons and neutrons; not a single particle."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In a circuit, the current is directly proportional to __________.",
+      "answers": {
+        "a": "Voltage",
+        "b": "Resistance",
+        "c": "Temperature",
+        "d": "Resistivity"
+      },
+      "explanations": {
+        "a": "Correct. Ohm’s Law: I ∝ V (I = V/R).",
+        "b": "Incorrect; current is inversely proportional to resistance.",
+        "c": "Incorrect; not directly related unless specified context (e.g. semiconductors).",
+        "d": "Incorrect; resistivity affects resistance, not directly current."
+      },
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]

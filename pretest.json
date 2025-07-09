@@ -1,0 +1,56 @@
+{
+  "version": 2.0,
+  "questions": [
+   {
+      "question": "Five volts is applied to two 2 ohm resistors in series. The resulting current is",
+      "answers": {
+        "a": "5 A",
+        "b": "2.5 A",
+        "c": "1.25 A",
+        "d": "Not enough information is given."
+      },
+      "explanations": {
+        "a": "Too high; would require only 1 ohm total resistance.",
+        "b": "Too high; check Ohm’s law.",
+        "c": "Correct. Total resistance = 4Ω; I = V/R = 5/4 = 1.25 A.",
+        "d": "Incorrect; enough info is provided to calculate current."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Five volts is applied to two 2 ohm resistors connected in parallel. The resulting current is",
+      "answers": {
+        "a": "5 A",
+        "b": "2.5 A",
+        "c": "1.25 A",
+        "d": "1 A"
+      },
+      "explanations": {
+        "a": "Correct. Parallel resistance = 1Ω; I = V/R = 5/1 = 5 A.",
+        "b": "Too low; check equivalent resistance.",
+        "c": "Incorrect; this is for series connection.",
+        "d": "Too low; underestimates current."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Six volts is applied to a 2 ohm resistor in series with two 2 ohm resistors connected in parallel. The current through the first resistor is",
+      "answers": {
+        "a": "3 A",
+        "b": "2 A",
+        "c": "1 A",
+        "d": "0.5 A"
+      },
+      "explanations": {
+        "a": "Too high; overestimates current.",
+        "b": "Correct. Parallel of two 2Ω = 1Ω. Total resistance = 2 + 1 = 3Ω. I = 6V/3Ω = 2 A.",
+        "c": "Too low; underestimates current.",
+        "d": "Too low; incorrect Ohm’s law usage."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
